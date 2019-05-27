@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<?xml version="1.0" encoding="utf-8" ?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-            android:id="@+id/navigation_home"
-            android:icon="@drawable/ic_home_black_24dp"
-            android:title="@string/title_home"/>
-
-    <item
-            android:id="@+id/navigation_dashboard"
+            android:id="@+id/navigation_events"
             android:icon="@drawable/ic_dashboard_black_24dp"
-            android:title="@string/title_dashboard"/>
+            android:title="Events"/>
+
+    <item android:title="Community" android:icon="@drawable/ic_dashboard_black_24dp"
+          android:id="@+id/navigation_community"/>
+    <item
+            android:id="@+id/navigation_ministry"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Ministry"/>
 
     <item
-            android:id="@+id/navigation_notifications"
-            android:icon="@drawable/ic_notifications_black_24dp"
-            android:title="@string/title_notifications"/>
+            android:id="@+id/navigation_missions"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Missions"/>
+    <item android:title="Resources" android:id="@+id/navigation_resources"
+          android:icon="@drawable/ic_dashboard_black_24dp"/>
 
 </menu>
