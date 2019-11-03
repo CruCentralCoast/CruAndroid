@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "508622621725",
+    "firebase_url": "https://cru-demo.firebaseio.com",
+    "project_id": "cru-demo",
+    "storage_bucket": "cru-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508622621725:android:69ac08b99d5b09dc054af4",
+        "android_client_info": {
+          "package_name": "crucentralcoast.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508622621725-chu9st5vsrcg3o7nous1pbalia7kra38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQVwM_LVhTjYhEF4Nv7EQ-TCvJfsMNDBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508622621725-chu9st5vsrcg3o7nous1pbalia7kra38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "508622621725-5adit95pbqnp1ii54tvvinq42ptmfkdr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.crucc.calpoly.beta"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
