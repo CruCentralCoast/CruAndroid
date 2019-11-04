@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_events"
+            android:title="Events"
+            android:checked = "true"/>
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_community"
+            android:title="Community"/>
+        <item
+            android:id="@+id/nav_ministry"
+            android:icon="@drawable/ic_ministry"
+            android:title="Ministry"/>
+        <item
+            android:id="@+id/nav_missions"
+            android:icon="@drawable/ic_missions"
+            android:title="Missions"/>
+        <item
+            android:id="@+id/nav_resources"
+            android:icon="@drawable/ic_resources"
+            android:title="Resources"/>
+    </group>
+
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/ic_update"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_signout"
+                android:title="Sign Out"/>
+        </menu>
+    </item>
+</menu>
