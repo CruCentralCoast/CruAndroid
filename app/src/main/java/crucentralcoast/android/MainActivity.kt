@@ -4,6 +4,10 @@ import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.TextView
+import android.content.Intent
+
+import android.os.Handler
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,10 +41,17 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val navView: BottomNavigationView = findViewById(R.id.nav_view)
+//        setContentView(R.layout.activity_main)
+//        val navView: BottomNavigationView = findViewById(R.id.nav_view)
+//
+//        textMessage = findViewById(R.id.message)
+//        navView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
+        setContentView(R.layout.activity_welcome_screen)
 
-        textMessage = findViewById(R.id.message)
-        navView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
+        Handler().postDelayed({
+        startActivity(Intent(this@MainActivity,Welcome2Activity::class.java))
+            finish()
+
+        }, 2000)
     }
 }
